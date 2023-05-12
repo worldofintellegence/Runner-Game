@@ -101,6 +101,7 @@
     <Compile Include="Assets\Scripts\OtherPage\ButtonUpgradesItem.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
     <Compile Include="Assets\Scripts\DebugController.cs" />
+    <Compile Include="Assets\Scripts\ADS\AdManager.cs" />
     <Compile Include="Assets\LocalNotification.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
     <Compile Include="Assets\Scripts\MainGame\BoatController.cs" />
@@ -160,6 +161,7 @@
     <Compile Include="Assets\Scripts\OtherPage\LoadListEnemy.cs" />
     <Compile Include="Assets\Scripts\MainGame\PlaneController.cs" />
     <Compile Include="Assets\Scripts\MainGame\SkisController.cs" />
+    <Compile Include="Assets\Scripts\Generals\ADSController.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
     <Compile Include="Assets\Scripts\Generals\PlayAudioOnEnable.cs" />
     <Compile Include="Assets\ResourcesGame\Particles\PlaneSmokeRed\RotatingScript.cs" />
@@ -264,8 +266,6 @@
     <Compile Include="Assets\Scripts\Generals\TextLoading.cs" />
     <Compile Include="Assets\Scripts\MainGame\BagController.cs" />
     <Compile Include="Assets\Chartboost\Scripts\CBJSON.cs" />
-    <Compile Include="Assets\Scripts\Generals\ADSController.cs" />
-    <Compile Include="Assets\Scripts\ADS\AdManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameAnalytics\Readme.txt" />
