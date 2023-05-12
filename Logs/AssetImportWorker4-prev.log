@@ -1,0 +1,352 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 12179 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/uazha/Desktop/Runner Game
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49949
+Successfully changed project path to: C:/Users/uazha/Desktop/Runner Game
+C:/Users/uazha/Desktop/Runner Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6220] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 3624820104 [EditorId] 3624820104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BSK0B5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6220] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 3624820104 [EditorId] 3624820104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BSK0B5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 222.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/uazha/Desktop/Runner Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) R5 M335 (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018050 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 545 ms
+Refreshing native plugins compatible for Editor in 197.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1995ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1652ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (708ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (198ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.050087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\uazha\Desktop\Runner Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\uazha\Desktop\Runner Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9169ms)
+		BeginReloadAssembly (612ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (8108ms)
+			LoadAssemblies (1559ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (6165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (5547ms)
+				ProcessInitializeOnLoadMethodAttributes (396ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (3.6 MB). Loaded Objects now: 4511.
+Memory consumption went from 172.4 MB to 168.8 MB.
+Total: 122.170000 ms (FindLiveObjects: 0.517200 ms CreateObjectMapping: 0.635500 ms MarkObjects: 115.433600 ms  DeleteObjects: 5.581800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7372.439145 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/JETPACK.FBX
+  artifactKey: Guid(0c5d0c53e6549c34f8778df802507af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/JETPACK.FBX using Guid(0c5d0c53e6549c34f8778df802507af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f35f717c2d3f81b89089daa8b033639') in 1.026376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ResourcesGame/Models/Planes/Textures/Planes.png
+  artifactKey: Guid(5b67d8d142e803641b06abea6e4dbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Planes/Textures/Planes.png using Guid(5b67d8d142e803641b06abea6e4dbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001a108242e3a673ae1447baa1d4b566') in 0.095338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD5.FBX
+  artifactKey: Guid(a33367f1e231d4244a6ec5c17f71e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD5.FBX using Guid(a33367f1e231d4244a6ec5c17f71e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9040a282bb8477a4997accc7c3ed0200') in 0.104809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Textures/Bat_Wing_Diff.png
+  artifactKey: Guid(80756417d08f83845998b2be08f586e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Textures/Bat_Wing_Diff.png using Guid(80756417d08f83845998b2be08f586e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c04c2bf84a10efa673f0429e48dbb3') in 0.117136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Textures/Hoverbike_Harley_Diff.png
+  artifactKey: Guid(9822774a01b84084abb497332871c963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Textures/Hoverbike_Harley_Diff.png using Guid(9822774a01b84084abb497332871c963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f9c1abe57cb5bd5fafaddae66f89d1') in 0.193195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ResourcesGame/Models/Characters/AllHeros/rBoy.fbx
+  artifactKey: Guid(caf2e2f7e6fa12845b32ac4d764a948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/AllHeros/rBoy.fbx using Guid(caf2e2f7e6fa12845b32ac4d764a948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dee6fd0c6c27cb76cf263e953156d73') in 0.484886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Jetpack_DoubleRocket.fbx
+  artifactKey: Guid(2efea41bb0297f14283926c7ad36bb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Jetpack_DoubleRocket.fbx using Guid(2efea41bb0297f14283926c7ad36bb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753e2f8bfd4ccdab6523012edc87466e') in 0.096520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Hover_Bike_Black.fbx
+  artifactKey: Guid(94811ce10f9804048a9a70d90d01fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Hover_Bike_Black.fbx using Guid(94811ce10f9804048a9a70d90d01fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c27d6b6cfe703689278edf16bdd62') in 0.080486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD3.FBX
+  artifactKey: Guid(731120ccb67ca7d49a1cadce70f8991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD3.FBX using Guid(731120ccb67ca7d49a1cadce70f8991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a435333c943b1030109c31f7729052') in 1.062383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Hoverbike_Harley.fbx
+  artifactKey: Guid(7f0e0b6310e3d9942bafede2f9f0c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Hoverbike_Harley.fbx using Guid(7f0e0b6310e3d9942bafede2f9f0c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a893a3da80d7f47e02b7cf401ee0089') in 0.099697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD7.FBX
+  artifactKey: Guid(ea1d35d76e4907145b62982ace94c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD7.FBX using Guid(ea1d35d76e4907145b62982ace94c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f83f0620fdbde099c2dafc1c9c7073') in 0.063099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/ResourcesGame/Models/Characters/AllHeros/focusnik.png
+  artifactKey: Guid(aac3296adcb6e0946be21899b7f0f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/AllHeros/focusnik.png using Guid(aac3296adcb6e0946be21899b7f0f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc5e8dd1833dd53f884d591a64e385') in 0.043318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ResourcesGame/Models/Characters/Max/Backpack
+  artifactKey: Guid(74aaee5032666b04087ab4e74c42a1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/Max/Backpack using Guid(74aaee5032666b04087ab4e74c42a1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8ea91fd8b7cf138d48634ad102fad8') in 0.028195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ResourcesGame/Models/Characters/AllHeros/alien.png
+  artifactKey: Guid(ef7fcd610c4d9f444ac71582069ad87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/AllHeros/alien.png using Guid(ef7fcd610c4d9f444ac71582069ad87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799eeb91bd9939cf70a4d48ab221ee92') in 0.044959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ResourcesGame/Models
+  artifactKey: Guid(48fe909081b10ad44b3dcca520fda6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models using Guid(48fe909081b10ad44b3dcca520fda6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4144671a26941550a0e5949df8c72374') in 0.022494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip
+  artifactKey: Guid(21e4ddf05b24eac44ae328559d128b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip using Guid(21e4ddf05b24eac44ae328559d128b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845b3b72b26c082f572746d42d745f79') in 0.019007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD6.FBX
+  artifactKey: Guid(8da7ad8523ba0ce44bd8c886b05fb078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD6.FBX using Guid(8da7ad8523ba0ce44bd8c886b05fb078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc398b60011d240d47e1eb7cd8cf88f3') in 0.071813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Textures/Golden_Wing.png
+  artifactKey: Guid(1736a4bc464e3104286c3a1b5af2d94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Textures/Golden_Wing.png using Guid(1736a4bc464e3104286c3a1b5af2d94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f71546c0c1fb9abb615e537d79886e8') in 0.042664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ResourcesGame/Models/Characters/AllHeros/cGirl.fbx
+  artifactKey: Guid(b5654a1c706e2e443b962521b8e6e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/AllHeros/cGirl.fbx using Guid(b5654a1c706e2e443b962521b8e6e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d431484b5c8da1c02a1b8ce28252c2') in 0.087493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/Textures/Hoverbike_Orange.png
+  artifactKey: Guid(bdaa309afa5d54a408fe7ff0613c9725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/Textures/Hoverbike_Orange.png using Guid(bdaa309afa5d54a408fe7ff0613c9725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260cd248fc9995200b711cfd02ac8bfc') in 0.083504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD1.FBX
+  artifactKey: Guid(20643b9b48f76ef42b753ac7fff544ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/ItemEquip/HOVERBOARD1.FBX using Guid(20643b9b48f76ef42b753ac7fff544ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c126132b4e4996f128ba7a6150aea7') in 0.084194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ResourcesGame/Models/Characters/AllHeros/Carmen.fbx
+  artifactKey: Guid(969bb2f6b7869454992aa4fa0b98b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Models/Characters/AllHeros/Carmen.fbx using Guid(969bb2f6b7869454992aa4fa0b98b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139e973a5c8f8e07252e83a40022d826') in 0.102230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.214018 seconds.
+  path: Assets/ResourcesGame/Particles
+  artifactKey: Guid(5293dd7015ceac44c9297f8b7cce6811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Particles using Guid(5293dd7015ceac44c9297f8b7cce6811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056e597c797ba562296f677618833c3b') in 0.030562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.736773 seconds.
+  path: Assets/ResourcesGame/Prefabs
+  artifactKey: Guid(4c4cb38613ae3fe458406475aeb4e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Prefabs using Guid(4c4cb38613ae3fe458406475aeb4e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bac47db2d63c50560f25c67331ca82a') in 0.025974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.453595 seconds.
+  path: Assets/ResourcesGame/RenderView.renderTexture
+  artifactKey: Guid(bfa3ce6049d8a5d458ec4e7984d6e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/RenderView.renderTexture using Guid(bfa3ce6049d8a5d458ec4e7984d6e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7073df08dfa66f116badaa7ab0ce34a9') in 0.058564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.394387 seconds.
+  path: Assets/ResourcesGame/Textures/Background
+  artifactKey: Guid(6874fb728b231f143a3c62a46df64f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Textures/Background using Guid(6874fb728b231f143a3c62a46df64f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f3421a1cf0e845561156456e92dff2') in 0.025521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.816368 seconds.
+  path: Assets/ResourcesGame/Textures/Background/Buildings
+  artifactKey: Guid(bce08aa21695a1540a6ed0a7ef02e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Textures/Background/Buildings using Guid(bce08aa21695a1540a6ed0a7ef02e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfc7bd29675fd9c0539463a51b34a1c') in 0.025300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856429 seconds.
+  path: Assets/ResourcesGame/Textures/Background/Buildings/01.png
+  artifactKey: Guid(6defd1b20b359234b8ebc60ab9e9bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Textures/Background/Buildings/01.png using Guid(6defd1b20b359234b8ebc60ab9e9bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c97770ced2294827ecec0e007b5cf61') in 0.082172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.864469 seconds.
+  path: Assets/ResourcesGame/Textures/Generals
+  artifactKey: Guid(2c4c0f660618aa243bcb3377e8e80c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ResourcesGame/Textures/Generals using Guid(2c4c0f660618aa243bcb3377e8e80c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7307c33c5aa01987eb7649fcb8fa95eb') in 0.022190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 219.132693 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(e018178fa66188b4d9ce814a364587af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(e018178fa66188b4d9ce814a364587af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a609e98f2e36708886cb2186c80a46') in 0.039576 seconds 

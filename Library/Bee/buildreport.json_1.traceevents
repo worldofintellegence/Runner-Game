@@ -1,0 +1,589 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1683821370070777, "dur": 7430850, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821370071172, "dur": 3695, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821370074883, "dur": 62455, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821370137340, "dur": 1246308, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821371383651, "dur": 6113203, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821377496856, "dur": 4771, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821377502252, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1683821371105724, "dur": 250107, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371107332, "dur": 73551, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371323981, "dur": 7404, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371331390, "dur": 24424, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371332974, "dur": 21870, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371366525, "dur": 2899, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683821371364636, "dur": 4840, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821377502454, "dur": 24785, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683821371458081, "dur":2038, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821371460130, "dur":221, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683821371460427, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683821371460460, "dur":289, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683821371460799, "dur":1276, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821371462076, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414202, "dur":149, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414351, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414369, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414375, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414392, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414398, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414407, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414413, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414425, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414452, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377414489, "dur":3570, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683821371461565, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371462095, "dur":7914, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371470044, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683821371470056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371471774, "dur":538, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683821371472320, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683821371472479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371472813, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683821371477370, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683821371477549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371477806, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683821371481202, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683821371481378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371481387, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683821371485123, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683821371485290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371485847, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683821371487454, "dur":19640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371507100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371507110, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371508530, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683821371508705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371508757, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683821371510784, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683821371510949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371511534, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683821371513789, "dur":16093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371529888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371529900, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371532543, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371532716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371532724, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683821371534468, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683821371534624, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371534642, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683821371537307, "dur":88069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371625380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371625500, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371631798, "dur":33765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371665605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371665615, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371668966, "dur":68501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371737473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371737483, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371738976, "dur":88414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371827431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371827441, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371830629, "dur":49860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371880496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371880509, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371881973, "dur":36161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371918140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821371918150, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821371919772, "dur":132630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372052408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372052417, "dur":5952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372058429, "dur":30893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372089328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372089337, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372091162, "dur":69423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372160589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372160596, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372162816, "dur":175410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372338232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372338242, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372339880, "dur":28761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372368648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372368657, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372370649, "dur":33180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372403835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372403845, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372405351, "dur":37509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372442867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372442914, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372444455, "dur":14140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372458601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372458611, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372460114, "dur":33735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372493856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372493868, "dur":49724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372543654, "dur":41761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372585421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372585447, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372587302, "dur":85849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372673157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372673166, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372674996, "dur":93174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372768176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372768186, "dur":8726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372776972, "dur":80762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372857740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372857749, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372859647, "dur":120424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372980077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821372980087, "dur":7673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821372987824, "dur":27865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373015695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373015705, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373019024, "dur":49740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373068770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373068780, "dur":11277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373080117, "dur":29765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373109889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373109897, "dur":21231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373131187, "dur":72608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373203800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373203810, "dur":10886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373214756, "dur":98657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373313419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373313428, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373315094, "dur":118883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373433984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373433994, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373435927, "dur":46807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373482740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373482749, "dur":9475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373492284, "dur":63868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373556158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373556167, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373557623, "dur":55322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373612951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373612960, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373614371, "dur":49375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373663752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373663762, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373665224, "dur":67147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373732383, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821373732394, "dur":32205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821373764658, "dur":372306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374137003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821374137013, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374139549, "dur":303351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374442907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821374442916, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374444951, "dur":206720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374651677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821374651686, "dur":54170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374705922, "dur":92745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374798673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821374798683, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821374800475, "dur":370960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821375171441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821375171450, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821375175197, "dur":509315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821375684518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821375684529, "dur":54359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821375738948, "dur":624903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821376363857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683821376363866, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683821376365745, "dur":1048439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371461566, "dur":534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371462100, "dur":7918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371470044, "dur":51602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683821371521654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371521666, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683821371523460, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683821371523737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371523747, "dur":11775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683821371535610, "dur":4992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821371540641, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371540994, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821371542737, "dur":226752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821371769494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821371769502, "dur":24202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821371793774, "dur":222250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372016031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372016042, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372017599, "dur":74055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372091659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372091668, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372093265, "dur":67217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372160488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372160532, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372162979, "dur":74482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372237467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372237477, "dur":6198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372243740, "dur":31468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372275214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372275224, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372276775, "dur":113753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372390534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372390543, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372392057, "dur":73532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372465595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372465605, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372467270, "dur":95437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372562714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372562722, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372564344, "dur":45537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372609887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372609896, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372611636, "dur":115236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372726878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372726927, "dur":25951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372752941, "dur":39964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372792911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372792920, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372798944, "dur":35117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372834067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372834077, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372835750, "dur":33748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372869539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372869548, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372871352, "dur":45231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372916589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372916598, "dur":8176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372924831, "dur":48397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372973235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821372973244, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821372975087, "dur":201423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373176515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821373176524, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373179236, "dur":96320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373275563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821373275572, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373277116, "dur":145525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373422648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821373422657, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373424811, "dur":473824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373898641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821373898650, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821373900400, "dur":354204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374254610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821374254620, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374256249, "dur":168462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374424717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821374424726, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374426539, "dur":252458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374679003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821374679012, "dur":75769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821374754841, "dur":409411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375164259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821375164271, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375166036, "dur":347319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375513364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821375513373, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375515711, "dur":76667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375592384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821375592393, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821375593942, "dur":810874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821376404822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683821376404831, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683821376406398, "dur":1007785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371461592, "dur":519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371462111, "dur":7905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371470044, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1683821371470274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371473866, "dur":7247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1683821371481188, "dur":16069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371497263, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371497277, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371498949, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683821371499114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371499193, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683821371500939, "dur":16420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371517365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371517376, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371519057, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683821371519227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371519308, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683821371522060, "dur":19700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371541771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371541788, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821371543435, "dur":15112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683821371558550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371558556, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683821371560960, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1683821371561115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371561559, "dur":19268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1683821371580903, "dur":58632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityStore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371639541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371639669, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityStore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371641516, "dur":33975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371675497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371675506, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371676921, "dur":70723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371747650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371747660, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371749184, "dur":36181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371785371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371785381, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371787066, "dur":37738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371824811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371824820, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371826244, "dur":38935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371865185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371865195, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371866742, "dur":35570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371902318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371902326, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371903797, "dur":35214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371939017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371939026, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371940571, "dur":25318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371965895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821371965904, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821371967290, "dur":52917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372020213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372020223, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372021738, "dur":288599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372310343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372310356, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372312770, "dur":82128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372394905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372394915, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372397937, "dur":35864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372433806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372433816, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372435332, "dur":33486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372468824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372468833, "dur":74467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372543373, "dur":90057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372633437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372633460, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372637321, "dur":36177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372673505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372673516, "dur":7548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372681124, "dur":117097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372798229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372798241, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372801513, "dur":29628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372831147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372831156, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372832904, "dur":48658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372881568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372881577, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372885630, "dur":51042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372936678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372936687, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372938721, "dur":39908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372978636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821372978646, "dur":8173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821372986881, "dur":29533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373016419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373016552, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373019929, "dur":81919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373101854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373101863, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373103797, "dur":84279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373188082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373188092, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373190014, "dur":42245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373232266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373232275, "dur":7201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373239535, "dur":230891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373470432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373470442, "dur":7332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373477843, "dur":169225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373647074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373647084, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373648580, "dur":54309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373702896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373702936, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373704349, "dur":18151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373722506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373722515, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373724024, "dur":89892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373813922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821373813932, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821373815461, "dur":295141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374110620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821374110628, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374115181, "dur":397427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374512614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821374512623, "dur":58486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374571177, "dur":232197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374803380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821374803437, "dur":4282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821374807778, "dur":357429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821375165235, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821375165249, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821375168096, "dur":349645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821375517753, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821375517792, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821375519503, "dur":566466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376085974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376085984, "dur":4116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376090175, "dur":57833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/ChannelPurchase.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376148014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376148023, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/ChannelPurchase.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376149413, "dur":39710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376189129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376189138, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376190558, "dur":10366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376200930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376201712, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683821376203957, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376204446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376204769, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376206115, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1683821376206174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376206234, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1683821376207717, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683821376207776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376207783, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683821376209559, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376209618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376209625, "dur":15842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376225549, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376225623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376225631, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376230733, "dur":7832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683821376238571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376238579, "dur":10625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683821376249259, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376249317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376249324, "dur":35830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376285212, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376285279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376285285, "dur":24335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376309680, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376309737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376309744, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376317819, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376317876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376317883, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376327046, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376327237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376327244, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376329019, "dur":12341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376341367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376341375, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1683821376342834, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376342891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376342897, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376344194, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376344246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376344253, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376346242, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376346327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376346335, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376347785, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1683821376347841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376347848, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1683821376349913, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376349971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376349978, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376351444, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1683821376351502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376351508, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1683821376353147, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376353203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376353245, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683821376354667, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683821376354726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376354732, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683821376356162, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376356237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376356244, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683821376357854, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1683821376357913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376357919, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1683821376359453, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821376359636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683821376359642, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1683821376360964, "dur":1053217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371461657, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371462125, "dur":7889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371470044, "dur":88453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683821371558503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371558859, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683821371560736, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run.exe" }}
+,{ "pid":12345, "tid":4, "ts":1683821371561776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371561783, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run.exe" }}
+,{ "pid":12345, "tid":4, "ts":1683821371563682, "dur":61314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/VacuumShaders.CurvedWorld.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371625003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371625985, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/VacuumShaders.CurvedWorld.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371631527, "dur":141862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371773395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371773405, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371775208, "dur":87404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371862618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371862628, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371864265, "dur":30461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371894732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821371894742, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821371896691, "dur":152687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372049385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372049394, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372050936, "dur":259922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372310863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372310870, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372314798, "dur":54710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372369532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372370889, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372372581, "dur":27669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372400257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372400266, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372401791, "dur":36071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372437869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372437880, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372439362, "dur":138029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372577398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372577407, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372579208, "dur":14585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372593800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372593810, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372596113, "dur":94475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372690594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372690602, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372692272, "dur":29757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372722035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372722044, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372725504, "dur":57820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372783330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821372783340, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821372786258, "dur":238346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373024610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373024619, "dur":18066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373042740, "dur":61673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373104419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373104429, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373108738, "dur":266691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373375435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373375445, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373377365, "dur":132626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373509997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373510006, "dur":3888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373513958, "dur":97075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373611040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373611050, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373613275, "dur":116383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373729664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373729674, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373731294, "dur":34731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373766031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821373766040, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821373767414, "dur":1299810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375067230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821375067239, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375071901, "dur":198869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375270887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821375270896, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375272544, "dur":221063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375493613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821375493622, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375496292, "dur":321561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375817862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821375817872, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821375819902, "dur":307534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/GameAnalytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821376127442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821376127452, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/GameAnalytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821376130583, "dur":1281621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK/Best Surfers Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821377412210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683821377412231, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK/Best Surfers Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683821377414157, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1683821377414161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683821377420789, "dur":3830, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1683821377527368, "dur": 1313, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683821377502234, "dur": 26482, "ph": "X", "name": "Write chrome-trace events", "args": {} },

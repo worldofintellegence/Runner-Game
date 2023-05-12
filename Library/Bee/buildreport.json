@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.68382571601232E+15,"dur": 13443494, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68382571608361E+15,"dur": 130576, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68382571677341E+15,"dur": 12405941, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "05/11/2023 10:22:09",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.23f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\uazha\\Desktop\\Runner Game\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-uazha -hubSessionId b25c1672-1b22-4256-95e6-bfd09a454e19",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.23f1\\Editor\\Unity.exe -projectpath C:\\Users\\uazha\\Desktop\\Runner Game -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-uazha -hubSessionId b25c1672-1b22-4256-95e6-bfd09a454e19",
+"meta_user_name": "uazha",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "4"
+}
